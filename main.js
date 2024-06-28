@@ -36,7 +36,7 @@ function handleMouseMove(event) {
     else 
     {
         txt.textContent = 'Do you love me ^-^*?';
-        img.src = 'initial.png';
+        img.src = 'Initial.png';
     }
 }
 
