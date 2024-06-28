@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    background-color: bisque;
+
+}
+.main button {
+    position: absolute;
+    right: 20%;    
+    transition: 0.5s;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 15px;
+    border: solid 1px #f9a661;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 105vh;
+    margin-bottom: 15px;
+    
+}
+.main img{
+    height: auto;
+    width: auto;
+    max-height: 40%;
+    max-width: 100%;
+}
+.main h1{
+    margin-bottom: 15px;
+    font-size: 54px;
+}
+.button_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+*{
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
